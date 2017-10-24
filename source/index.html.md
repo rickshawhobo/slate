@@ -86,6 +86,7 @@ This endpoint retrieves all kittens.
 Parameter | Default | Description
 --------- | ------- | -----------
 filters[age] | null | Set to a positive integer to find kittens of this age. Note that kittens less than 1 year are considered age 0
+filters[maxAge] | null | Set to a positive integer to find kittens with this maximum age. Note that maxAge is inclusive of the current age. If a kitten is 4.5 years old then maxAge=4 will match that kitten
 filters[gender] | null | Set to either `m` for male or `f` for female
 filters[color] | null | There are over 150 colors including `Teal`, `RosyBrown`, `Olive` and `Navy`. 
 filters[firstName] | null | Set to a string to find kittens with first names starting with the string
